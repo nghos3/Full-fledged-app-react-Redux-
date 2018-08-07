@@ -1,13 +1,13 @@
 import React from 'react';
-import {link} from 'react-router';
+import {Link} from 'react-router';
 
-class HomePage extends React.Component {
-    render() {
-        return(
+class HomePage extends React.Component{
+    render(){
+        return (
             <div className="jumbotron">
-                <h1>APP ADMINISTRATION</h1>
-                <p>React , Redux and React-Router ultra-responsive pages</p>
-                <Link to="about" className="btn btn-primary btn-lg">Learn More</Link>
+                <h1>Administration</h1>
+                <p>thsi is a small description of the Ad which goes just right here.</p>
+                <Link to="about" className="btn btn-primary btn-lg">Learn more</Link>
             </div>
         );
     }
